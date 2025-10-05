@@ -1,6 +1,6 @@
 public class fiveExercise {
     static void main(String[] args) {
-        int ageMen = 15;
+        int ageMen = 16;
         var ageWomen = 18;
 
         if (ageMen > ageWomen) {
