@@ -14,7 +14,7 @@ public class fiveExercise {
         }
 
         int money = 100;
-        int priceMilk = 20;
+        int priceMilk = 21;
 
         int balanceOfMoney = money - priceMilk;
         int moneyBoy = balanceOfMoney > 70 ? 10 : 5;
