@@ -12,5 +12,18 @@ public class fiveExercise {
         else {
             System.out.println("Девушка старше парня");
         }
+
+        int money = 100;
+        int priceMilk = 21;
+
+        int balanceOfMoney = money - priceMilk;
+        int moneyBoy = balanceOfMoney > 70 ? 10 : 5;
+
+        System.out.println("баланс мальчика: " + moneyBoy);
+
+        int remainderMoney = balanceOfMoney - moneyBoy;
+
+        System.out.println("Остаток: " + remainderMoney);
+
     }
 }
