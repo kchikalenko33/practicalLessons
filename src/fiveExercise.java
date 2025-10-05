@@ -1,12 +1,12 @@
 public class fiveExercise {
     static void main(String[] args) {
-        int ageMen = 16;
-        var ageWomen = 18;
+        int ageMan = 16;
+        var ageWoman = 18;
 
-        if (ageMen > ageWomen) {
+        if (ageMan > ageWoman) {
             System.out.println("Девушка младше парня");
         }
-        else if (ageMen == ageWomen) {
+        else if (ageMan == ageWoman) {
             System.out.println("Девушка и парень - одногодки");
         }
         else {
